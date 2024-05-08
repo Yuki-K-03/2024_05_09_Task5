@@ -25,7 +25,7 @@ int main()
     v.resize(10, 0);
 
     for (int i = 0; i < v.size(); i++) {
-        v[i] += 1;
+        v[i] += i;
     }
 
     Show(v);
